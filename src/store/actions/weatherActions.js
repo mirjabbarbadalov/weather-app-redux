@@ -10,7 +10,7 @@ export const fetchPosts = (location) => {
 
     try {
       const response = await fetch(
-        `http://api.openweathermap.org/data/2.5/weather?appid=fe0fbe3c79ea276dc2211dce2a13f066&q=${location}&units=metric`
+        `https://api.openweathermap.org/data/2.5/weather?appid=fe0fbe3c79ea276dc2211dce2a13f066&q=${location}&units=metric`
       );
       const data = await response.json();
       // console.log(data);
