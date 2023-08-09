@@ -1,0 +1,23 @@
+@import "./assets/Header.scss";
+@import "./assets/Search.scss";
+@import "./assets/Card.scss";
+@import "./assets/Loading.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #142850;
+}
+
+.container {
+  // width: 500px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  // background-color: #284275;
+}

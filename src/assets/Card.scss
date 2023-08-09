@@ -1,0 +1,65 @@
+// .weather-card-sec {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+.card {
+  width: 400px;
+  border: 3px solid #0079ff;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 12px;
+  &--header {
+    display: flex;
+    flex-direction: column;
+
+    .weather-info {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 20px;
+
+      &-type {
+        font-family: "Ubuntu", sans-serif;
+        color: #ecf2f9;
+        font-size: 20px;
+      }
+    }
+
+    .weather-degree {
+      font-family: "Ubuntu", sans-serif;
+      color: #ecf2f9;
+      align-self: center;
+      font-size: 36px;
+
+      span {
+        color: #ff8400;
+        font-size: 28px;
+      }
+    }
+  }
+
+  .weather-description {
+    margin-top: 20px;
+    font-family: "Ubuntu", sans-serif;
+
+    .location-name {
+      font-size: 32px;
+      color: #ecf2f9;
+    }
+
+    .location-desc {
+      font-size: 18px;
+      color: #bfbfbf;
+      margin-top: 20px;
+    }
+  }
+}
+
+.error-message {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fc2947;
+}
